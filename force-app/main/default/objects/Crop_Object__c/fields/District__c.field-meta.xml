@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>District__c</fullName>
+    <label>District</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cuddalore,</fullName>
+                <default>false</default>
+                <label>Cuddalore,</label>
+            </value>
+            <value>
+                <fullName>Thanjavur,</fullName>
+                <default>false</default>
+                <label>Thanjavur,</label>
+            </value>
+            <value>
+                <fullName>Trichy</fullName>
+                <default>false</default>
+                <label>Trichy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
